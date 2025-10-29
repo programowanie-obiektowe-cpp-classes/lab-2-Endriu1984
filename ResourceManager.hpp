@@ -2,16 +2,8 @@
 
 #include "Resource.hpp"
 
-// Zasób
-class Resource {
-public:
-    double get() const {
-        return 42.0;
-    }
-};
-
-// Manager zasobu
 class ResourceManager {
+
     Resource* resource; // wskaźnik na dynamiczny zasób
 
 public:
